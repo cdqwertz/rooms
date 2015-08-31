@@ -3,7 +3,7 @@ minetest.register_abm({
 	neighbors = {"default:water_source"},
 	interval = 1.0,
 	chance = 1,
-	action = function(pos, node, active_object_count, active_object_count_wider)
+	action = function(pos)
 		minetest.set_node(pos, {name = "air"})
 	end,
 })

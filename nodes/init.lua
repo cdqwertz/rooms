@@ -4,6 +4,6 @@ minetest.register_abm({
 	interval = 1.0,
 	chance = 1,
 	action = function(pos)
-		minetest.set_node(pos, {name = "air"})
+		minetest.set_node(pos, {name = "default:water_source"})
 	end,
 })
